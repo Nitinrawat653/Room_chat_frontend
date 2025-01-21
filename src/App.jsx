@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import { Chat } from "./Chat";
 import music from "./mixkit-tone.wav";
 
-const socket = io.connect("http://localhost:1000");
+const socket = io.connect("https://room-chat-app-w0n6.onrender.com");
 
 const App = () => {
   const [username, setUsername] = useState("");
